@@ -1,0 +1,12 @@
+Query,Intent,Region,Response
+What is the power consumption in Region A?,POWER_USAGE,Region A,The latest power consumption in Region A is 553.46 MW.
+How much power is Region B using?,POWER_USAGE,Region B,The latest power consumption in Region B is 657.41 MW.
+Tell me the current power usage in Region C?,POWER_USAGE,Region C,The latest power consumption in Region C is 418.56 MW.
+What is the temperature in Region A?,TEMPERATURE,Region A,The latest temperature in Region A is 22.00 °C.
+What is the temperature of Region B?,TEMPERATURE,Region B,The latest temperature in Region B is 20.62 °C.
+Tell me the temperature in Region C?,TEMPERATURE,Region C,The latest temperature in Region C is 20.40 °C.
+What is the power forecast for Region A?,POWER_FORECAST,Region A,No forecast data available for Region A.
+Predict power consumption for Region B,POWER_FORECAST,Region B,No forecast data available for Region B.
+Give me the forecast for Region C?,POWER_FORECAST,Region C,The forecasted power consumption for Region C is 456.40 MW.
+What is the power forecast?,POWER_FORECAST,,"Please specify a region such as Region A, Region B, or Region C."
+Show me the grid status,UNKNOWN,,"Please specify a region such as Region A, Region B, or Region C."
