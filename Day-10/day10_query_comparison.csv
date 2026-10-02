@@ -1,0 +1,6 @@
+Query,Old Intent,New Intent,Old Region,New Region
+What is the load in Region A?,UNKNOWN,POWER_USAGE,Region A,Region A
+What is the demand in Region B?,UNKNOWN,POWER_USAGE,Region B,Region B
+What is the temp in Region C?,UNKNOWN,TEMPERATURE,Region C,Region C
+What is the power forecast for Zone A?,POWER_FORECAST,POWER_FORECAST,,Region A
+What is the power consumption in Area B?,POWER_USAGE,POWER_USAGE,,Region B
