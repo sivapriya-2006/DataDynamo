@@ -1,0 +1,9 @@
+Issue Type,Number of Queries
+Missing region,2
+Unsupported query,2
+Unsupported terminology,1
+Unknown region,1
+Unsupported telemetry field,1
+Future date not handled,1
+Historical date not handled,1
+Unclear query,1

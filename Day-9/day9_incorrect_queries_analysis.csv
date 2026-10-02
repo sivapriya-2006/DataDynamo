@@ -1,0 +1,11 @@
+Query,Detected Intent,Detected Region,Response,Issue Type,Issue Description
+What is the power forecast?,POWER_FORECAST,,"Please specify a region such as Region A, Region B, or Region C.",Missing region,The query asks for a forecast but does not specify a region.
+What is the temperature?,TEMPERATURE,,"Please specify a region such as Region A, Region B, or Region C.",Missing region,The query asks for temperature but does not specify a region.
+Show me the grid status,UNKNOWN,,"Please specify a region such as Region A, Region B, or Region C.",Unsupported query,Grid status is not currently supported by the assistant.
+What is the load?,UNKNOWN,,"Please specify a region such as Region A, Region B, or Region C.",Unsupported terminology,The assistant does not currently map 'load' to power consumption.
+Tell me about Region D,UNKNOWN,,"Please specify a region such as Region A, Region B, or Region C.",Unknown region,Region D is not available in the telemetry dataset.
+What is the voltage in Region A?,UNKNOWN,Region A,"Sorry, I could not understand the query. You can ask about power consumption, temperature, or power forecast.",Unsupported telemetry field,Voltage data is not available in the current telemetry dataset.
+Give me the forecast for Region A tomorrow,POWER_FORECAST,Region A,No forecast data available for Region A.,Future date not handled,The assistant detects the forecast but does not process the requested future date.
+How much energy was consumed yesterday?,UNKNOWN,,"Please specify a region such as Region A, Region B, or Region C.",Historical date not handled,The assistant does not currently process date-specific historical queries.
+Is Region B overloaded?,UNKNOWN,Region B,"Sorry, I could not understand the query. You can ask about power consumption, temperature, or power forecast.",Unsupported query,The assistant does not currently evaluate regional overload conditions.
+What is happening in the grid?,UNKNOWN,,"Please specify a region such as Region A, Region B, or Region C.",Unclear query,The query does not specify a supported telemetry request.
