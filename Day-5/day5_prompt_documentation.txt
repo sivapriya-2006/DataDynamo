@@ -1,0 +1,48 @@
+
+DATA DYNAMO – DAY 5 PROMPT DOCUMENTATION
+
+Purpose:
+Design prompts for telemetry queries and forecast explanations.
+
+1. TELEMETRY QUERY PROMPT
+
+The assistant should:
+- Understand the user's telemetry query.
+- Identify the requested information.
+- Identify the region.
+- Identify the required telemetry field.
+- Provide a clear response for the grid operator.
+
+Supported queries:
+- Power consumption
+- Temperature
+- Power forecast
+
+Available regions:
+- Region A
+- Region B
+- Region C
+
+
+2. FORECAST EXPLANATION PROMPT
+
+The assistant should:
+- Identify the requested region.
+- Retrieve the forecast result.
+- Report predicted power consumption in MW.
+- Explain that the forecast uses historical telemetry,
+  temperature, time-based features, lag values,
+  and rolling-average information.
+- Ask for the region if it is missing.
+
+
+3. DAY 5 TESTING
+
+The prompt design was tested using multiple
+natural-language grid operator queries.
+
+The system evaluates:
+- Query intent
+- Region identification
+- Forecast response generation
+- Missing-region handling
