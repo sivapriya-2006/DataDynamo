@@ -1,0 +1,5 @@
+Evaluation Metric,Score (%)
+Intent Accuracy,100.0
+Region Accuracy,100.0
+Overall Query Accuracy,100.0
+Forecast Explanation Quality,50.0

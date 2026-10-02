@@ -1,0 +1,4 @@
+Region,Region Mentioned,MW Mentioned,Forecast Mentioned,Features Explained,Quality Score
+Region A,True,False,False,False,1/4
+Region B,True,False,False,False,1/4
+Region C,True,True,True,True,4/4
