@@ -1,0 +1,87 @@
+
+GRID TELEMETRY DATA DOCUMENTATION
+
+Project: Data Dynamo
+Purpose: Regional power consumption forecasting and natural-language telemetry queries.
+
+AVAILABLE REGIONS
+
+- Region A
+  Base Load: 400 MW
+  Description: Regional power consumption area A
+
+- Region B
+  Base Load: 550 MW
+  Description: Regional power consumption area B
+
+- Region C
+  Base Load: 300 MW
+  Description: Regional power consumption area C
+
+
+TELEMETRY FIELDS
+
+- Field: timestamp
+  Description: Date and time of the power telemetry measurement
+  Unit: datetime
+  Data Type: datetime
+
+- Field: region
+  Description: Regional identifier
+  Unit: text
+  Data Type: string
+
+- Field: temperature
+  Description: Temperature recorded for the telemetry period
+  Unit: °C
+  Data Type: float
+
+- Field: base_load
+  Description: Base power load assigned to the region
+  Unit: MW
+  Data Type: integer
+
+- Field: power_mw
+  Description: Regional power consumption
+  Unit: MW
+  Data Type: float
+
+- Field: hour
+  Description: Hour of the day
+  Unit: 0-23
+  Data Type: integer
+
+- Field: day_of_week
+  Description: Day of the week
+  Unit: 0-6
+  Data Type: integer
+
+- Field: day_of_month
+  Description: Day of the month
+  Unit: 1-31
+  Data Type: integer
+
+- Field: month
+  Description: Month of the year
+  Unit: 1-12
+  Data Type: integer
+
+- Field: lag_1
+  Description: Power consumption from the previous hour
+  Unit: MW
+  Data Type: float
+
+- Field: lag_2
+  Description: Power consumption from two hours earlier
+  Unit: MW
+  Data Type: float
+
+- Field: lag_3
+  Description: Power consumption from three hours earlier
+  Unit: MW
+  Data Type: float
+
+- Field: rolling_24
+  Description: 24-hour rolling average of power consumption
+  Unit: MW
+  Data Type: float
